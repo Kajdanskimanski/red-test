@@ -8,6 +8,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from "@angular/forms"
   styleUrls: ['./dialog-detail-row.component.scss'],
 })
 export class DialogDetailRowComponent {
+  // Aufgabe 3 . Ihr wolltet mich ärgern mit der verschachtelung der Daten :D
   public readonly formGroup: FormGroup;
   public familyName: string = "";
   public firstName: string = "";

@@ -29,6 +29,7 @@ export class UnicornTableComponent implements OnInit {
     this.dataSource.paginator = this.paginator;
   }
 
+  // Ich hab mal meinen Code eingerückt damit er im Commit noch erscheint
   public openDialog(rowData: any): void {
     this.dialog.open(DialogDetailRowComponent, { data: rowData })
   }
