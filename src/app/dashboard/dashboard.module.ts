@@ -10,7 +10,7 @@ import { AbstractSearchFacadeService } from '@red-probeaufgabe/search';
   declarations: [DashboardComponent],
   imports: [CommonModule, UiModule, SearchModule, DashboardRoutingModule],
 
-  // weil AbstractSearchFacadeService eine abstrakte Klasse hat kann es nicht direkt eingebunden werden. Ich muss den Service searchFacade genau einbinden um ihn zu nutzen. 
+  //Aufgabe 1: weil AbstractSearchFacadeService eine abstrakte Klasse hat kann es nicht direkt eingebunden werden. Ich muss den Service searchFacade genau einbinden um ihn zu nutzen. 
   providers: [{
     provide: AbstractSearchFacadeService,
     useClass: SearchFacadeService
